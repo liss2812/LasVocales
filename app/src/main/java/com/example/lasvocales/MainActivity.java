@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         btna = (ImageButton) findViewById(R.id.btna);
 
-        mp3a = MediaPlayer.create(this, R.raw.vocal_a);
+        mp3a = MediaPlayer.create(this, R.raw.a_arbol);
         btna.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         });
             btne = (ImageButton) findViewById(R.id.btne);
 
-            mp3e = MediaPlayer.create(this, R.raw.vocal_e);
+            mp3e = MediaPlayer.create(this, R.raw.e_estrella);
             btne.setOnClickListener(new View.OnClickListener() {
 
 
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
             btni = (ImageButton) findViewById(R.id.btni);
 
-            mp3i = MediaPlayer.create(this, R.raw.vocal_i);
+            mp3i = MediaPlayer.create(this, R.raw.i_iguana);
             btni.setOnClickListener(new View.OnClickListener() {
 
 
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
             btno = (ImageButton) findViewById(R.id.btno);
 
-            mp3o = MediaPlayer.create(this, R.raw.vocal_o);
+            mp3o = MediaPlayer.create(this, R.raw.o_oso);
             btno.setOnClickListener(new View.OnClickListener() {
 
 
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             });
             btnu = (ImageButton) findViewById(R.id.btnu);
 
-            mp3u = MediaPlayer.create(this, R.raw.vocal_u);
+            mp3u = MediaPlayer.create(this, R.raw.u_uva);
             btnu.setOnClickListener(new View.OnClickListener() {
 
 
